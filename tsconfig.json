@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+      "lib": ["ES2020", "DOM"],
+      "declaration": true,
+      "outDir": "./dist",
+      "declarationMap": true,
+      "baseUrl": "./",
+      "rootDir": "src",
+      "target": "ES2019",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "strict": true,
+      "strictPropertyInitialization": false,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "sourceMap": true,
+      "sourceRoot": "/",
+      "skipLibCheck": true,
+      "skipDefaultLibCheck": true,
+      "inlineSources": true,
+      "esModuleInterop": true,
+      "noEmitHelpers": true,
+      "importHelpers": true,
+      "resolveJsonModule": true,
+      // Relative path on types since this is extended by package tsconfig.json
+      "types": ["node"]
+    },
+    "include": ["./src", "../../@types"],
+    "exclude": ["node_modules", "build"],
+    "@types": ["lodash"]
+  }
+  
